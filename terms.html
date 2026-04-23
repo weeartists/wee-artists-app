@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Terms of Use – Wee Artists</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --purple: #7C3AED;
+    --purple-light: #EDE9FE;
+    --purple-mid: #A78BFA;
+    --yellow: #FCD34D;
+    --pink: #F472B6;
+    --teal: #2DD4BF;
+    --green: #34D399;
+    --bg: #F5F0FF;
+    --white: #FFFFFF;
+    --text: #1E1B4B;
+    --muted: #6B7280;
+    --radius: 20px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .header {
+    background: var(--purple);
+    padding: 40px 24px 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    bottom: -30px; left: 0; right: 0;
+    height: 60px;
+    background: var(--bg);
+    border-radius: 50% 50% 0 0 / 60px 60px 0 0;
+  }
+  .header .dots {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+  .logo-wrap {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 10px;
+  }
+  .logo-icon {
+    width: 64px; height: 64px;
+    background: var(--yellow);
+    border-radius: 18px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 4px 0 #D97706;
+  }
+  .logo-text {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.4em;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .header-sub {
+    position: relative;
+    font-size: 1em;
+    color: rgba(255,255,255,0.75);
+    font-weight: 600;
+    margin-top: 6px;
+  }
+  .nav-pills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 28px 24px 0;
+    flex-wrap: wrap;
+  }
+  .nav-pills a {
+    padding: 8px 20px;
+    border-radius: 999px;
+    font-size: 0.88em;
+    font-weight: 700;
+    text-decoration: none;
+    background: var(--white);
+    color: var(--muted);
+    transition: all 0.2s;
+  }
+  .nav-pills a.active, .nav-pills a:hover {
+    background: var(--purple);
+    color: #fff;
+  }
+  .container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 36px 20px 60px;
+  }
+
+  /* Intro banner */
+  .intro-banner {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 16px rgba(124,58,237,0.07);
+    font-size: 0.93em;
+    line-height: 1.7;
+    color: #374151;
+    border-left: 5px solid var(--purple);
+  }
+  .intro-banner strong { color: var(--text); }
+
+  /* Cards */
+  .card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 26px 28px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 16px rgba(124,58,237,0.07);
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 5px; height: 100%;
+    background: var(--accent, var(--purple-mid));
+    border-radius: 4px 0 0 4px;
+  }
+  .card h2 {
+    font-size: 1.08em;
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .card h2 .emoji { font-size: 1.1em; }
+  .card p {
+    font-size: 0.95em;
+    line-height: 1.75;
+    color: #374151;
+    margin-bottom: 10px;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  .card ul {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 8px;
+  }
+  .card ul li {
+    font-size: 0.93em;
+    line-height: 1.7;
+    color: #374151;
+    padding: 5px 0 5px 28px;
+    position: relative;
+  }
+  .card ul li::before {
+    content: '✦';
+    position: absolute;
+    left: 6px;
+    color: var(--purple-mid);
+    font-size: 0.7em;
+    top: 7px;
+  }
+  .card.c-green { --accent: #34D399; }
+  .card.c-pink  { --accent: #F472B6; }
+  .card.c-teal  { --accent: #2DD4BF; }
+  .card.c-yellow { --accent: #FBBF24; }
+  .card.c-purple { --accent: var(--purple); }
+  .card.c-blue  { --accent: #60A5FA; }
+  .card.c-red   { --accent: #F87171; }
+
+  /* Highlight box */
+  .highlight {
+    background: #FFFBEB;
+    border: 1.5px solid #FDE68A;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 0.88em;
+    line-height: 1.6;
+    color: #78350F;
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .highlight .hi-icon { font-size: 1.2em; flex-shrink: 0; margin-top: 1px; }
+
+  /* Ownership cards */
+  .owner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 14px;
+  }
+  .owner-card {
+    border-radius: 14px;
+    padding: 16px 16px;
+    font-size: 0.88em;
+    line-height: 1.5;
+  }
+  .owner-card.dev {
+    background: var(--purple-light);
+    color: #4C1D95;
+  }
+  .owner-card.user {
+    background: #D1FAE5;
+    color: #064E3B;
+  }
+  .owner-card .o-label {
+    font-weight: 800;
+    font-size: 0.95em;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  /* Contact */
+  .contact-block {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--purple-light);
+    border-radius: 14px;
+    padding: 16px 20px;
+    margin-top: 12px;
+  }
+  .contact-block .c-icon {
+    width: 46px; height: 46px;
+    background: var(--purple);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+  .contact-block p { font-size: 0.93em; line-height: 1.6; color: #4C1D95; font-weight: 600; }
+  .contact-block a { color: var(--purple); font-weight: 800; }
+
+  footer {
+    text-align: center;
+    padding: 28px 20px 40px;
+    font-size: 0.88em;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  footer .heart { color: #F472B6; }
+
+  @media (max-width: 480px) {
+    .logo-text { font-size: 1.9em; }
+    .card { padding: 20px 18px; }
+    .owner-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="dots"></div>
+  <div class="logo-wrap">
+    <div class="logo-icon">🎨</div>
+    <div class="logo-text">Wee Artists</div>
+  </div>
+  <p class="header-sub">Terms of Use &nbsp;·&nbsp; Last updated: April 2026</p>
+</div>
+
+<div class="nav-pills">
+  <a href="index.html">Privacy Policy</a>
+  <a href="support.html">Support</a>
+  <a href="terms.html" class="active">Terms of Use</a>
+</div>
+
+<div class="container">
+
+  <div class="intro-banner">
+    By downloading and using Wee Artists ("the App"), <strong>you agree to these Terms of Use.</strong> They apply to all users, including parents and guardians downloading on behalf of a child. If you do not agree, please do not use the App.
+  </div>
+
+  <div class="card c-purple">
+    <h2><span class="emoji">👨‍👩‍👧</span> Who May Use the App</h2>
+    <p>Wee Artists is designed for young children and requires no minimum age to use. The App is intended to be used by children under the supervision of a parent or legal guardian.</p>
+    <p>By downloading this App on behalf of a child, you confirm that you are the parent or legal guardian of that child and take responsibility for ensuring appropriate use.</p>
+  </div>
+
+  <div class="card c-green">
+    <h2><span class="emoji">✅</span> Permitted Use</h2>
+    <p>You may use Wee Artists for personal, non-commercial creative and educational purposes. You agree <strong>not</strong> to:</p>
+    <ul>
+      <li>Reverse-engineer, decompile, or modify any part of the App</li>
+      <li>Attempt to extract or redistribute the App's source code or assets</li>
+      <li>Use the App for any unlawful or harmful purpose</li>
+      <li>Misrepresent the App or its content to others</li>
+      <li>Attempt to access or interfere with any other user's data</li>
+    </ul>
+  </div>
+
+  <div class="card c-teal">
+    <h2><span class="emoji">🎨</span> Intellectual Property</h2>
+    <p>All original content in Wee Artists — including app design, artwork, icons, sounds, and code — belongs to the developer and is protected by applicable intellectual property laws.</p>
+    <div class="owner-grid">
+      <div class="owner-card dev">
+        <span class="o-label">🔵 Developer owns</span>
+        App design, tools, icons, sounds, and underlying code
+      </div>
+      <div class="owner-card user">
+        <span class="o-label">🟢 You own</span>
+        All drawings and artwork your child creates in the app
+      </div>
+    </div>
+    <p style="margin-top:14px;">We have no claim over any artwork your child creates using Wee Artists.</p>
+  </div>
+
+  <div class="card c-pink">
+    <h2><span class="emoji">🔒</span> Privacy &amp; Data</h2>
+    <p>Wee Artists collects no personal data. All app data is stored locally on your device only. Please review our full <a href="index.html" style="color:var(--purple);font-weight:800;">Privacy Policy</a> for complete details.</p>
+    <div class="highlight">
+      <div class="hi-icon">⚠️</div>
+      <div>Since no data is stored on our servers, we cannot recover lost drawings if you delete the app or clear your device data. Please back up any artwork you wish to keep before uninstalling.</div>
+    </div>
+  </div>
+
+  <div class="card c-yellow">
+    <h2><span class="emoji">⚖️</span> Disclaimers &amp; Limitation of Liability</h2>
+    <p>Wee Artists is provided "as is" without warranties of any kind, express or implied. We do not guarantee that the App will be uninterrupted, error-free, or meet every expectation.</p>
+    <p>To the fullest extent permitted by applicable law, we are not liable for any loss of data, indirect damages, or losses arising from your use of the App.</p>
+  </div>
+
+  <div class="card c-blue">
+    <h2><span class="emoji">🔄</span> Updates &amp; Availability</h2>
+    <p>We may update, modify, or discontinue the App at any time without prior notice. We may also update these Terms of Use — the "Last updated" date at the top of this page will reflect any changes.</p>
+    <p>Continued use of the App after any changes constitutes your acceptance of the revised terms.</p>
+  </div>
+
+  <div class="card c-red">
+    <h2><span class="emoji">🌏</span> Governing Law</h2>
+    <p>These terms are governed by and construed in accordance with the laws of India. Any disputes arising from the use of this App will be subject to the jurisdiction of the relevant courts in India.</p>
+  </div>
+
+  <div class="card c-purple">
+    <h2><span class="emoji">📧</span> Contact Us</h2>
+    <p>Questions about these terms? We're happy to help.</p>
+    <div class="contact-block">
+      <div class="c-icon">✉️</div>
+      <p>Reach us at <a href="mailto:sreeharibuilds@gmail.com">sreeharibuilds@gmail.com</a><br>We aim to respond within 48 hours.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>Made with <span class="heart">♥</span> for little artists everywhere 🎨</p>
+</footer>
+
+</body>
+</html>
