@@ -472,7 +472,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "swan_001",
@@ -654,7 +654,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "puppy_001",
@@ -845,7 +845,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "dolphin_001",
@@ -932,7 +932,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "apple_001",
@@ -1050,7 +1050,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_icecream_001",
@@ -1177,7 +1177,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "fantasy_bow_001",
@@ -1731,7 +1731,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_car_001",
@@ -2001,7 +2001,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_donkey_face_001",
@@ -2160,7 +2160,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_elephant_face_001",
@@ -2319,7 +2319,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_frog_001",
@@ -2462,7 +2462,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_girl_face_001",
@@ -2573,7 +2573,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_plane_001",
@@ -2700,7 +2700,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_puppy_face_001",
@@ -2835,7 +2835,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_rabbit_001",
@@ -2938,7 +2938,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_sleepy_face_001",
@@ -3001,7 +3001,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_tiger_face_001",
@@ -3176,7 +3176,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_cow_001",
@@ -3471,7 +3471,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_elephant_face_002",
@@ -3614,7 +3614,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_fish_002",
@@ -3733,7 +3733,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_pig_face_001",
@@ -3884,7 +3884,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_pup_face_001",
@@ -4051,7 +4051,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_snake_001",
@@ -4114,7 +4114,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "nature_tulip_001",
@@ -4217,7 +4217,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_cat_001",
@@ -4400,7 +4400,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_duck_001",
@@ -4519,7 +4519,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_hen_001",
@@ -4598,7 +4598,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_monkey_001",
@@ -4845,7 +4845,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "nature_mushroom_001",
@@ -4932,7 +4932,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_penguin_001",
@@ -5051,7 +5051,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_pig_001",
@@ -5226,7 +5226,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "nature_pumpkin_001",
@@ -5321,7 +5321,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_rocket_001",
@@ -5416,7 +5416,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_sailing_boat_001",
@@ -5527,7 +5527,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "nature_sun_001",
@@ -5662,7 +5662,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_tortoise_001",
@@ -5845,7 +5845,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_truck_001",
@@ -5980,7 +5980,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "objects_umbrella_001",
@@ -6043,7 +6043,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "fantasy_unicorn_001",
@@ -6186,7 +6186,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_bell_pepper_001",
@@ -6265,7 +6265,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_cherry_001",
@@ -6360,7 +6360,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_cupcake_001",
@@ -6463,7 +6463,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_donut_001",
@@ -6598,7 +6598,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_strawberry_001",
@@ -6757,7 +6757,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "fantasy_ironman_001",
@@ -6948,7 +6948,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "insects_ladybug_001",
@@ -7187,7 +7187,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_cone_icecream_001",
@@ -7362,7 +7362,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_dinosaur_001",
@@ -7569,7 +7569,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_fish_001",
@@ -7648,7 +7648,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_helicopter_001",
@@ -7871,7 +7871,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "buildings_house_001",
@@ -8046,7 +8046,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_burger_001",
@@ -8173,7 +8173,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "insects_butterfly_001",
@@ -8459,7 +8459,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "objects_candle_001",
@@ -8506,7 +8506,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "objects_cap_001",
@@ -8561,7 +8561,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": true
+      "isPremium": false
     }
   ]
 }
