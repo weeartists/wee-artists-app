@@ -475,8 +475,8 @@
       "isPremium": false
     },
     {
-      "id": "swan_001",
-      "title": "Swan",
+      "id": "duckling_001",
+      "title": "Duckling",
       "category": "animals",
       "minimumAgeGroup": 1,
       "difficulty": 1,
