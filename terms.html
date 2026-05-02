@@ -76,26 +76,16 @@
     font-weight: 600;
     margin-top: 6px;
   }
-  .nav-pills {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 28px 24px 0;
-    flex-wrap: wrap;
-  }
-  .nav-pills a {
-    padding: 8px 20px;
+  .page-label {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 22px;
     border-radius: 999px;
     font-size: 0.88em;
     font-weight: 700;
-    text-decoration: none;
-    background: var(--white);
-    color: var(--muted);
-    transition: all 0.2s;
-  }
-  .nav-pills a.active, .nav-pills a:hover {
-    background: var(--purple);
+    background: rgba(255,255,255,0.18);
     color: #fff;
+    position: relative;
   }
   .container {
     max-width: 780px;
@@ -243,7 +233,10 @@
     flex-shrink: 0;
   }
   .contact-block p { font-size: 0.93em; line-height: 1.6; color: #4C1D95; font-weight: 600; }
-  .contact-block a { color: var(--purple); font-weight: 800; }
+  .contact-block .email-text {
+    color: var(--purple);
+    font-weight: 800;
+  }
 
   footer {
     text-align: center;
@@ -269,13 +262,8 @@
     <div class="logo-icon">🎨</div>
     <div class="logo-text">Wee Artists</div>
   </div>
-  <p class="header-sub">Terms of Use &nbsp;·&nbsp; Last updated: April 2026</p>
-</div>
-
-<div class="nav-pills">
-  <a href="privacy.html">Privacy Policy</a>
-  <a href="support.html">Support</a>
-  <a href="terms.html" class="active">Terms of Use</a>
+  <p class="header-sub">Last updated: April 2026</p>
+  <div class="page-label">Terms of Use</div>
 </div>
 
 <div class="container">
@@ -320,7 +308,7 @@
 
   <div class="card c-pink">
     <h2><span class="emoji">🔒</span> Privacy &amp; Data</h2>
-    <p>Wee Artists collects no personal data. All app data is stored locally on your device only. Please review our full <a href="index.html" style="color:var(--purple);font-weight:800;">Privacy Policy</a> for complete details.</p>
+    <p>Wee Artists collects no personal data. All app data is stored locally on your device only. Please review our full Privacy Policy for complete details.</p>
     <div class="highlight">
       <div class="hi-icon">⚠️</div>
       <div>Since no data is stored on our servers, we cannot recover lost drawings if you delete the app or clear your device data. Please back up any artwork you wish to keep before uninstalling.</div>
@@ -349,7 +337,7 @@
     <p>Questions about these terms? We're happy to help.</p>
     <div class="contact-block">
       <div class="c-icon">✉️</div>
-      <p>Reach us at <a href="mailto:weekidsartists@gmail.com">weekidsartists@gmail.com</a><br>We aim to respond within 48 hours.</p>
+      <p>Reach us at <span class="email-text">weekidsartists@gmail.com</span><br>We aim to respond within 48 hours.</p>
     </div>
   </div>
 
