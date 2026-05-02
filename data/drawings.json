@@ -472,7 +472,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": false
+      "isPremium": true
     },
     {
       "id": "swan_001",
@@ -932,7 +932,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": false
+      "isPremium": true
     },
     {
       "id": "apple_001",
@@ -1288,7 +1288,7 @@
           "fillColor": "none"
         }
       ],
-      "isPremium": false
+      "isPremium": true
     },
     {
       "id": "vehicles_aeroplane_001",
