@@ -76,26 +76,16 @@
     font-weight: 600;
     margin-top: 6px;
   }
-  .nav-pills {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 28px 24px 0;
-    flex-wrap: wrap;
-  }
-  .nav-pills a {
-    padding: 8px 20px;
+  .page-label {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 22px;
     border-radius: 999px;
     font-size: 0.88em;
     font-weight: 700;
-    text-decoration: none;
-    background: var(--white);
-    color: var(--muted);
-    transition: all 0.2s;
-  }
-  .nav-pills a.active, .nav-pills a:hover {
-    background: var(--purple);
+    background: rgba(255,255,255,0.18);
     color: #fff;
+    position: relative;
   }
   .container {
     max-width: 780px;
@@ -123,7 +113,7 @@
   }
   .contact-hero h2 { font-size: 1.1em; font-weight: 800; margin-bottom: 4px; }
   .contact-hero p { font-size: 0.9em; opacity: 0.85; line-height: 1.5; }
-  .contact-hero a { color: var(--yellow); font-weight: 800; }
+  .contact-hero .email-text { color: var(--yellow); font-weight: 800; }
 
   /* Section headings */
   .section-title {
@@ -136,7 +126,7 @@
     gap: 10px;
   }
 
-  /* FAQ accordion */
+  /* FAQ — static, all expanded */
   .faq-item {
     background: var(--white);
     border-radius: 14px;
@@ -146,41 +136,34 @@
   }
   .faq-q {
     width: 100%;
-    background: none;
-    border: none;
     padding: 18px 22px;
     text-align: left;
     font-family: 'Nunito', sans-serif;
     font-size: 0.96em;
     font-weight: 800;
     color: var(--text);
-    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+    background: var(--purple-light);
   }
-  .faq-q:hover { background: var(--purple-light); }
   .faq-q .arrow {
     width: 26px; height: 26px; flex-shrink: 0;
-    background: var(--purple-light);
+    background: var(--purple);
     border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
     font-size: 0.8em;
-    color: var(--purple);
-    transition: transform 0.25s;
+    color: #fff;
   }
-  .faq-item.open .faq-q .arrow { transform: rotate(180deg); }
   .faq-a {
-    display: none;
-    padding: 0 22px 18px;
+    display: block;
+    padding: 14px 22px 18px;
     font-size: 0.92em;
     line-height: 1.75;
     color: #4B5563;
     border-top: 1px solid #F3F4F6;
-    padding-top: 14px;
   }
-  .faq-item.open .faq-a { display: block; }
 
   /* Trouble cards */
   .trouble-grid {
@@ -243,13 +226,8 @@
     <div class="logo-icon">🎨</div>
     <div class="logo-text">Wee Artists</div>
   </div>
-  <p class="header-sub">Support</p>
-</div>
-
-<div class="nav-pills">
-  <a href="privacy.html">Privacy Policy</a>
-  <a href="support.html" class="active">Support</a>
-  <a href="terms.html">Terms of Use</a>
+  <p class="header-sub">We're here to help</p>
+  <div class="page-label">Support</div>
 </div>
 
 <div class="container">
@@ -258,40 +236,40 @@
     <div class="ch-icon">✉️</div>
     <div>
       <h2>We're here to help!</h2>
-      <p>Email us at <a href="mailto:weekidsartists@gmail.com">weekidsartists@gmail.com</a><br>
+      <p>Email us at <span class="email-text">weekidsartists@gmail.com</span><br>
       Please include your device model and app version for faster help. We respond within 24–48 hours.</p>
     </div>
   </div>
 
   <div class="section-title">❓ Frequently asked questions</div>
 
-  <div class="faq-item open">
-    <button class="faq-q">Is Wee Artists safe for my child? <span class="arrow">▼</span></button>
+  <div class="faq-item">
+    <div class="faq-q">Is Wee Artists safe for my child? <span class="arrow">▼</span></div>
     <div class="faq-a">Yes, completely. The app has no ads, no in-app purchases, no social features, and no internet connection required. Your child draws in a totally safe, distraction-free space. We also collect zero data — see our Privacy Policy for full details.</div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-q">Does the app collect any information? <span class="arrow">▼</span></button>
+    <div class="faq-q">Does the app collect any information? <span class="arrow">▼</span></div>
     <div class="faq-a">No. Wee Artists collects nothing at all — no names, no device IDs, no usage data. Everything stays locally on your device. We are fully COPPA and GDPR-K compliant.</div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-q">Where are drawings saved? <span class="arrow">▼</span></button>
+    <div class="faq-q">Where are drawings saved? <span class="arrow">▼</span></div>
     <div class="faq-a">All artwork is saved locally on your device only. Nothing is uploaded to the cloud or any server. Use the save button inside the app to store a drawing.</div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-q">Does it work without internet? <span class="arrow">▼</span></button>
+    <div class="faq-q">Does it work without internet? <span class="arrow">▼</span></div>
     <div class="faq-a">Yes — Wee Artists works completely offline. No internet connection is needed at any time to draw, save, or use any feature.</div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-q">What age group is the app for? <span class="arrow">▼</span></button>
+    <div class="faq-q">What age group is the app for? <span class="arrow">▼</span></div>
     <div class="faq-a">Wee Artists is designed for young children, typically ages 2–8. The interface is simple, colourful, and built for little hands and big imaginations.</div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-q">Will I lose drawings if I delete the app? <span class="arrow">▼</span></button>
+    <div class="faq-q">Will I lose drawings if I delete the app? <span class="arrow">▼</span></div>
     <div class="faq-a">Yes. Because all data is stored locally on your device, uninstalling the app removes all saved drawings. We recommend sharing or exporting any artwork you'd like to keep before uninstalling.</div>
   </div>
 
@@ -345,17 +323,6 @@
 <footer>
   <p>Made with <span class="heart">♥</span> for little artists everywhere 🎨</p>
 </footer>
-
-<script>
-  document.querySelectorAll('.faq-q').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const item = btn.closest('.faq-item');
-      const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-      if (!isOpen) item.classList.add('open');
-    });
-  });
-</script>
 
 </body>
 </html>
