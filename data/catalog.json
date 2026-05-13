@@ -1075,6 +1075,266 @@
         "width": 800,
         "height": 800
       }
-    }
+    },
+    {
+      "id": "animals_seahorse_001",
+      "title": "Seahorse",
+      "category": "animals",
+      "minimumAgeGroup": 2,
+      "isPremium": true,
+      "difficulty": 2,
+      "totalSteps": 12,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "id": "fantasy_basketball_001",
+      "title": "Basketball",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 5,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "fantasy_football_001",
+      "title": "Football",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 12,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_joystick_001",
+      "title": "Joystick",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 7,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_key_001",
+      "title": "Key",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 6,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_rugby_001",
+      "title": "Rugby",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 13,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_scissors_001",
+      "title": "Scissors",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 6,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_skating_board_001",
+      "title": "Skating Board",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 6,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_ufo_001",
+      "title": "UFO",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 10,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_volleyball_001",
+      "title": "Volleyball",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 7,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "fantasy_whistle_001",
+      "title": "Whistle",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 9,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "food_banana_001",
+      "title": "Banana",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 4,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_ambulance_001",
+      "title": "Ambulance",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 25,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_boat_001",
+      "title": "Boat",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 13,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_crane_truck_001",
+      "title": "Crane Truck",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 27,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_fighter_jet_001",
+      "title": "Fighter Jet",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 14,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_police_car_001",
+      "title": "Police Car",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 17,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_scooter_001",
+      "title": "Scooter",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 18,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_ship_001",
+      "title": "Ship",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 35,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
+    {
+      "id": "vehicles_submarine_001",
+      "title": "Submarine",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 20,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+      },
   ]
 }
