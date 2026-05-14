@@ -251,6 +251,24 @@
   }
   .compliance-box p:last-child { margin-bottom: 0; }
 
+  /* RevenueCat disclosure box */
+  .rc-box {
+    background: #FFFBEB;
+    border: 2px solid #FDE68A;
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-top: 16px;
+  }
+  .rc-box h4 {
+    font-size: 0.93em; font-weight: 800; color: #92400E; margin-bottom: 8px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .rc-box p {
+    font-size: 0.88em; color: #78350F; line-height: 1.65; margin-bottom: 6px;
+  }
+  .rc-box p:last-child { margin-bottom: 0; }
+  .rc-box a { color: #92400E; font-weight: 700; }
+
   .rights-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -332,31 +350,31 @@
   <div class="safe-banner">
     <div class="icon-circle">🛡️</div>
     <div>
-      <h3>No ads &nbsp;·&nbsp; No data collected &nbsp;·&nbsp; Safe for children</h3>
-      <p>Your child's artwork stays on their device — always. We collect absolutely no data of any kind.</p>
+      <h3>No ads &nbsp;·&nbsp; No personal data collected &nbsp;·&nbsp; Safe for children</h3>
+      <p>Your child's artwork stays on their device. We do not collect any personal data from children.</p>
     </div>
   </div>
 
-  <!-- Compliance badges -->
+  <!-- Compliance badges — FIXED: Education category, not Kids -->
   <div class="badge-strip">
     <div class="badge"><span>✅</span> COPPA Compliant</div>
     <div class="badge"><span>✅</span> GDPR-K Compliant</div>
-    <div class="badge"><span>✅</span> Apple Kids Category</div>
+    <div class="badge"><span>✅</span> Education Category</div>
     <div class="badge"><span>✅</span> No Ads · No Tracking</div>
-    <div class="badge"><span>✅</span> No Data Collected</div>
+    <div class="badge"><span>✅</span> No Personal Data Collected</div>
   </div>
 
   <!-- 1. About -->
   <div class="card c-purple">
     <h2><span class="emoji">👋</span> About Wee Artists</h2>
-    <p>Wee Artists is a creative drawing app made for young children to explore imagination in a safe, joyful space. We built it with one principle above everything else: children deserve a private, ad-free place to create.</p>
-    <p>This Privacy Policy explains clearly what we do — and don't do — with any information related to your use of the app. We comply fully with the Children's Online Privacy Protection Act (COPPA), the General Data Protection Regulation for children (GDPR-K), Apple's App Store Guidelines for Kids Category apps, and the Kids Online Safety Act (KOSA).</p>
+    <p>Wee Artists is a creative drawing app designed for children to explore imagination in a safe, joyful space. We built it with one principle above everything else: children deserve a private, ad-free place to create.</p>
+    <p>This Privacy Policy explains clearly what we do — and don't do — with any information related to your use of the app. We comply fully with the Children's Online Privacy Protection Act (COPPA), the General Data Protection Regulation for children (GDPR-K), and the Kids Online Safety Act (KOSA).</p>
   </div>
 
   <!-- 2. Information We Collect -->
   <div class="card c-green">
     <h2><span class="emoji">🔒</span> Information We Collect</h2>
-    <p>We collect <strong>no data whatsoever</strong>. No account, login, or registration is required to use Wee Artists. The app contains no analytics, no tracking, and no data transmission of any kind.</p>
+    <p>We collect <strong>no personal data</strong> from children. No account, login, or registration is required to use Wee Artists. The app contains no analytics, no tracking, and no advertising of any kind.</p>
 
     <p style="margin-top:14px; font-weight:800; font-size:0.93em; color:#6D28D9;">We never collect:</p>
     <div class="nocollect-grid">
@@ -364,8 +382,7 @@
       <div class="nocollect-item"><div class="x">✕</div> Location data</div>
       <div class="nocollect-item"><div class="x">✕</div> Children's personal data</div>
       <div class="nocollect-item"><div class="x">✕</div> Drawings or artwork</div>
-      <div class="nocollect-item"><div class="x">✕</div> Device identifiers</div>
-      <div class="nocollect-item"><div class="x">✕</div> Payment information</div>
+      <div class="nocollect-item"><div class="x">✕</div> Device identifiers (by us)</div>
       <div class="nocollect-item"><div class="x">✕</div> Photos or camera access</div>
       <div class="nocollect-item"><div class="x">✕</div> Microphone or audio</div>
       <div class="nocollect-item"><div class="x">✕</div> Usage or analytics data</div>
@@ -373,7 +390,7 @@
     </div>
   </div>
 
-  <!-- 3. Artwork Storage -->
+  <!-- 3. Artwork Storage — FIXED: removed "fully offline" claim, added content update note -->
   <div class="card c-teal">
     <h2><span class="emoji">📱</span> How Your Artwork Is Stored</h2>
     <p>All artwork and creative content lives only on your device. Drawings are <strong>never</strong> uploaded, transmitted, or shared with us or any third party.</p>
@@ -386,35 +403,48 @@
       <div class="storage-card">
         <div class="s-icon">🚫</div>
         <div class="s-title">No cloud sync</div>
-        <div class="s-desc">Nothing is uploaded to any server, ever</div>
+        <div class="s-desc">Your artwork is never uploaded to any server</div>
       </div>
       <div class="storage-card">
-        <div class="s-icon">✈️</div>
-        <div class="s-title">Fully offline</div>
-        <div class="s-desc">No internet connection needed or used — the app works entirely offline</div>
+        <div class="s-icon">🔄</div>
+        <div class="s-title">Content updates</div>
+        <div class="s-desc">New drawing lessons are fetched periodically from our servers. No personal data is sent during this process.</div>
       </div>
     </div>
   </div>
 
-  <!-- 4. Children's Privacy -->
+  <!-- 4. Children's Privacy — FIXED: removed Kids Category reference, corrected Apple compliance box -->
   <div class="card c-pink">
     <h2><span class="emoji">🧒</span> Children's Privacy (COPPA, GDPR-K &amp; KOSA)</h2>
-    <p>Wee Artists is specifically built for young children. We fully comply with:</p>
+    <p>Wee Artists is designed for children. We fully comply with:</p>
     <ul>
-      <li><strong>COPPA</strong> (Children's Online Privacy Protection Act, USA) — We do not collect personal information from any child under 13. No parental consent is needed because we collect no personal information at all.</li>
-      <li><strong>GDPR-K</strong> (GDPR provisions for children's data, EU/UK) — We collect no data of any kind, making this the simplest possible compliance: nothing is processed.</li>
+      <li><strong>COPPA</strong> (Children's Online Privacy Protection Act, USA) — We do not collect personal information from any child under 13. No parental consent is needed because we collect no personal information from children.</li>
+      <li><strong>GDPR-K</strong> (GDPR provisions for children's data, EU/UK) — We collect no personal data from children, making this the simplest possible compliance: nothing about a child is processed.</li>
       <li><strong>KOSA</strong> (Kids Online Safety Act) — The app does not contain features that promote addictive behaviour, social comparison, harmful content, or unsupervised communication.</li>
-      <li><strong>Apple Kids Category Guidelines</strong> — The app contains no advertising, no analytics or tracking SDKs, no social features, and no external links accessible to children.</li>
     </ul>
 
     <div class="compliance-box">
       <h4>🍎 Apple App Store Compliance</h4>
-      <p>Wee Artists is listed in the Apple App Store Kids Category. In accordance with Apple's requirements: the app contains no behavioural advertising, no third-party data collection, no links out of the app visible to children, and no ability for children to make purchases without parental approval.</p>
-      <p>The app contains no third-party SDKs, analytics libraries, or any code that transmits data off the device, consistent with Apple's App Store Review Guidelines for apps designed for children.</p>
+      <p>Wee Artists is listed in the Apple App Store <strong>Education category</strong> with a 4+ age rating. In accordance with Apple's requirements: the app contains no behavioural advertising, no analytics or tracking SDKs, no social features accessible to children, and all in-app purchase flows require parental involvement via a parental gate.</p>
     </div>
   </div>
 
-  <!-- 5. Parental Rights -->
+  <!-- 5. In-App Purchases & RevenueCat — NEW SECTION -->
+  <div class="card c-orange">
+    <h2><span class="emoji">💳</span> In-App Purchases &amp; RevenueCat</h2>
+    <p>Wee Artists offers an optional premium subscription to unlock all drawing lessons. Subscription purchases are handled entirely by Apple's App Store — we never receive or store your payment details.</p>
+    <p>To manage subscription status, the app uses <strong>RevenueCat</strong>, a third-party subscription management service. When you make or restore a purchase, RevenueCat receives your Apple purchase receipt and an anonymous device identifier solely to verify whether a subscription is active.</p>
+
+    <div class="rc-box">
+      <h4>📋 What RevenueCat receives</h4>
+      <p><strong>Purchase receipt:</strong> Sent to RevenueCat's servers to verify your subscription status. This receipt is provided by Apple and contains your subscription details but not your name or payment information.</p>
+      <p><strong>Anonymous device identifier:</strong> Used only to link your subscription to your device. It is not used for advertising or tracking.</p>
+      <p><strong>No children's personal data</strong> is sent to RevenueCat at any time. The purchase flow is protected by a parental gate requiring a parent to complete the transaction.</p>
+      <p>RevenueCat's full privacy policy is available at <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
+    </div>
+  </div>
+
+  <!-- 6. Parental Rights -->
   <div class="card c-red">
     <h2><span class="emoji">👨‍👩‍👧</span> Parental Rights &amp; Controls</h2>
     <p>As a parent or guardian, you have full control. Here is what you can do at any time:</p>
@@ -432,42 +462,41 @@
       <div class="right-item">
         <div class="r-icon">🔍</div>
         <div class="r-title">Request information</div>
-        <div class="r-desc">Ask us anything about how the app works and what data (none) we hold</div>
+        <div class="r-desc">Ask us anything about how the app works and what data we hold</div>
       </div>
     </div>
-    <p style="margin-top:14px;">Because we collect no data of any kind, there is no profile, account, or identifiable record associated with your child anywhere. However, we are always happy to answer any questions you may have.</p>
+    <p style="margin-top:14px;">Because we collect no personal data from children, there is no profile, account, or identifiable record associated with your child anywhere on our systems.</p>
   </div>
 
-  <!-- 6. Third-party services -->
+  <!-- 7. Third-party services — FIXED: removed false "no IAP" and "no third-party SDKs" claims -->
   <div class="card c-yellow">
     <h2><span class="emoji">🤝</span> Third-Party Services</h2>
-    <p>Wee Artists uses <strong>no third-party services, SDKs, or libraries</strong> that collect or transmit data. There are no:</p>
+    <p>Wee Artists uses only one third-party service: <strong>RevenueCat</strong> for subscription management (described above). There are no:</p>
     <ul>
       <li>Analytics or crash reporting tools</li>
       <li>Advertisements or ad networks of any kind</li>
       <li>Social media integrations or sharing features</li>
-      <li>In-app purchases linked to external payment services</li>
       <li>Tracking, profiling, or marketing tools</li>
-      <li>External links or websites accessible from within the app</li>
+      <li>External links or websites accessible to children from within the app</li>
       <li>Chat, messaging, or user-generated content features</li>
     </ul>
   </div>
 
-  <!-- 7. Data Security -->
+  <!-- 8. Data Security -->
   <div class="card c-blue">
     <h2><span class="emoji">🔐</span> Data Security</h2>
-    <p>Because we collect no data and the app works entirely offline, there is no data in transit and no server-side storage to secure. The risk of a data breach affecting your child is eliminated by design.</p>
-    <p>All artwork remains on your device under the security protections provided by Apple iOS/iPadOS.</p>
+    <p>We collect no personal data from children and store no artwork on our servers. All drawing content remains on your device under the security protections provided by Apple iOS/iPadOS.</p>
+    <p>The only data that leaves the device is the Apple purchase receipt sent to RevenueCat when a subscription is purchased or restored — described fully in the In-App Purchases section above.</p>
   </div>
 
-  <!-- 8. Changes to policy -->
+  <!-- 9. Changes to policy -->
   <div class="card c-teal">
     <h2><span class="emoji">🔄</span> Changes to This Policy</h2>
     <p>If we ever make changes to this policy, we will update the "Last updated" date at the top of this page. For significant changes — such as introducing new data collection — we will notify users via an in-app notice and seek parental consent where required by law (including COPPA and GDPR-K).</p>
     <p>We will never introduce advertising, personal data collection, or external communication features without providing clear notice and obtaining appropriate consent.</p>
   </div>
 
-  <!-- 9. Contact -->
+  <!-- 10. Contact -->
   <div class="card c-purple">
     <h2><span class="emoji">📧</span> Contact Us</h2>
     <p>Questions about this policy, your child's privacy, or how the app works? Parents and guardians are welcome to reach out — we are happy to help.</p>
