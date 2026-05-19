@@ -1336,5 +1336,18 @@
       },
       "isPremium": true
       },
+    {
+    "id": "food_pear_001",
+    "title": "Pear",
+    "category": "food",
+    "minimumAgeGroup": 1,
+    "difficulty": 1,
+    "totalSteps": 5,
+    "canvasSize": {
+      "width": 800,
+      "height": 800
+    },
+    "isPremium": true
+     },
   ]
 }
