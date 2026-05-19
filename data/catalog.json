@@ -220,7 +220,7 @@
     },
     {
       "id": "faces_cat_001",
-      "title": "Cat",
+      "title": "Cat Face",
       "category": "faces",
       "minimumAgeGroup": 1,
       "difficulty": 1,
@@ -229,7 +229,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "fantasy_ball_001",
@@ -307,7 +307,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_elephant_face_001",
@@ -372,7 +372,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_rabbit_001",
