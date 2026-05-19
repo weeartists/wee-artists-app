@@ -1638,7 +1638,7 @@
     {
       "id": "food_cup_001",
       "title": "Cup",
-      "category": "food",
+      "category": "fantasy",
       "minimumAgeGroup": 1,
       "difficulty": 1,
       "totalSteps": 6,
