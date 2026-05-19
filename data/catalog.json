@@ -190,7 +190,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_icecream_001",
@@ -268,7 +268,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_car_001",
@@ -281,7 +281,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_cow_face_001",
@@ -359,7 +359,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_puppy_face_001",
@@ -567,7 +567,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_penguin_001",
@@ -632,7 +632,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "nature_sun_001",
@@ -749,7 +749,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "food_strawberry_001",
@@ -869,19 +869,6 @@
       "isPremium": true
     },
     {
-      "id": "insects_butterfly_001",
-      "title": "Butterfly",
-      "category": "nature",
-      "minimumAgeGroup": 1,
-      "difficulty": 1,
-      "totalSteps": 6,
-      "canvasSize": {
-        "width": 800,
-        "height": 800
-      },
-      "isPremium": true
-    },
-    {
       "id": "food_cake_001",
       "title": "Cake",
       "category": "food",
@@ -951,7 +938,7 @@
       "title": "Bow",
       "category": "fantasy",
       "minimumAgeGroup": 1,
-      "isPremium": true,
+      "isPremium": false,
       "difficulty": 1,
       "totalSteps": 9,
       "canvasSize": {
@@ -1126,7 +1113,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "fantasy_key_001",
@@ -1152,7 +1139,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "fantasy_scissors_001",
@@ -1230,7 +1217,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "vehicles_ambulance_001",
@@ -1477,7 +1464,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "animals_octopus_001",
