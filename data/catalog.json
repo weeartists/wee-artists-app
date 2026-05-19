@@ -4,22 +4,22 @@
     {
       "id": 1,
       "label": "Little Artists",
-      "ageRange": "3\u20135",
-      "emoji": "\ud83c\udf1f",
+      "ageRange": "3–5",
+      "emoji": "🌟",
       "description": "Easy drawings"
     },
     {
       "id": 2,
       "label": "Junior Drawers",
-      "ageRange": "6\u20138",
-      "emoji": "\u270f\ufe0f",
+      "ageRange": "6–8",
+      "emoji": "✏️",
       "description": "Medium detail"
     },
     {
       "id": 3,
       "label": "Creative Kids",
-      "ageRange": "9\u201312",
-      "emoji": "\ud83c\udfa8",
+      "ageRange": "9–12",
+      "emoji": "🎨",
       "description": "Advanced drawings"
     }
   ],
@@ -27,37 +27,37 @@
     {
       "id": "animals",
       "label": "Animals",
-      "emoji": "\ud83d\udc31",
+      "emoji": "🐱",
       "color": "#FFD580"
     },
     {
       "id": "faces",
       "label": "Faces",
-      "emoji": "\ud83d\ude0a",
+      "emoji": "😊",
       "color": "#FFB3C6"
     },
     {
       "id": "food",
       "label": "Food",
-      "emoji": "\ud83c\udf4e",
+      "emoji": "🍎",
       "color": "#B5EAD7"
     },
     {
       "id": "vehicles",
       "label": "Vehicles",
-      "emoji": "\ud83d\ude97",
+      "emoji": "🚗",
       "color": "#AED9F7"
     },
     {
       "id": "nature",
       "label": "Nature",
-      "emoji": "\ud83c\udf38",
+      "emoji": "🌸",
       "color": "#C7CEEA"
     },
     {
       "id": "fantasy",
       "label": "Fantasy",
-      "emoji": "\ud83d\udc09",
+      "emoji": "🐉",
       "color": "#FFDAC1"
     }
   ],
@@ -1114,7 +1114,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_joystick_001",
       "title": "Joystick",
@@ -1127,7 +1127,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_key_001",
       "title": "Key",
@@ -1140,7 +1140,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_rugby_001",
       "title": "Rugby",
@@ -1153,7 +1153,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_scissors_001",
       "title": "Scissors",
@@ -1166,7 +1166,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_skating_board_001",
       "title": "Skating Board",
@@ -1179,7 +1179,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_ufo_001",
       "title": "UFO",
@@ -1192,7 +1192,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_volleyball_001",
       "title": "Volleyball",
@@ -1205,7 +1205,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "fantasy_whistle_001",
       "title": "Whistle",
@@ -1218,7 +1218,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "food_banana_001",
       "title": "Banana",
@@ -1231,7 +1231,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_ambulance_001",
       "title": "Ambulance",
@@ -1244,7 +1244,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_boat_001",
       "title": "Boat",
@@ -1257,7 +1257,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_crane_truck_001",
       "title": "Crane Truck",
@@ -1270,7 +1270,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_fighter_jet_001",
       "title": "Fighter Jet",
@@ -1283,7 +1283,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_police_car_001",
       "title": "Police Car",
@@ -1296,7 +1296,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_scooter_001",
       "title": "Scooter",
@@ -1309,7 +1309,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_ship_001",
       "title": "Ship",
@@ -1322,7 +1322,7 @@
         "height": 800
       },
       "isPremium": true
-      },
+    },
     {
       "id": "vehicles_submarine_001",
       "title": "Submarine",
@@ -1335,19 +1335,266 @@
         "height": 800
       },
       "isPremium": true
-      },
-    {
-    "id": "food_pear_001",
-    "title": "Pear",
-    "category": "food",
-    "minimumAgeGroup": 1,
-    "difficulty": 1,
-    "totalSteps": 5,
-    "canvasSize": {
-      "width": 800,
-      "height": 800
     },
-    "isPremium": true
-     },
+    {
+      "id": "food_pear_001",
+      "title": "Pear",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 5,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_cheese_001",
+      "title": "Cheese",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 12,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_croissant_001",
+      "title": "Croissant",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 6,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "fantasy_crown_001",
+      "title": "Crown",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 8,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_french_fries_001",
+      "title": "French Fries",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 11,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_kiwi_001",
+      "title": "Kiwi",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 20,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "nature_leaf_001",
+      "title": "Leaf",
+      "category": "nature",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 10,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "fantasy_lightbulb_001",
+      "title": "Lightbulb",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 19,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_lollipop_001",
+      "title": "Lollipop",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 3,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_mango_001",
+      "title": "Mango",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 8,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "nature_nest_001",
+      "title": "Nest",
+      "category": "nature",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 10,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "animals_octopus_001",
+      "title": "Octopus",
+      "category": "animals",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 15,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_pineapple_001",
+      "title": "Pineapple",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 18,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_popcorn_001",
+      "title": "Popcorn",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 20,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "animals_porcupine_001",
+      "title": "Porcupine",
+      "category": "animals",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 11,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "fantasy_present_001",
+      "title": "Present",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 20,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_toffee_001",
+      "title": "Toffee",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 7,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "fantasy_trophy_001",
+      "title": "Trophy",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 8,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_watermelon_001",
+      "title": "Watermelon",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 15,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "vehicles_ship_002",
+      "title": "Ship",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 11,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    }
   ]
 }
