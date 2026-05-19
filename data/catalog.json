@@ -1597,9 +1597,9 @@
       "isPremium": true
     },
     {
-      "id": "animals_ant_001",
+      "id": "nature_ant_001",
       "title": "Ant",
-      "category": "animals",
+      "category": "nature",
       "minimumAgeGroup": 1,
       "difficulty": 1,
       "totalSteps": 25,
