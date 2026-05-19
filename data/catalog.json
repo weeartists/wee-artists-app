@@ -385,7 +385,7 @@
         "width": 800,
         "height": 800
       },
-      "isPremium": true
+      "isPremium": false
     },
     {
       "id": "faces_sleepy_face_001",
@@ -1002,7 +1002,7 @@
       "id": "animals_owl_001",
       "title": "Owl",
       "category": "animals",
-      "isPremium": true,
+      "isPremium": false,
       "minimumAgeGroup": 1,
       "difficulty": 1,
       "totalSteps": 18,
