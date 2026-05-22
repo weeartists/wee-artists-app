@@ -1496,8 +1496,8 @@
       "id": "food_popcorn_001",
       "title": "Popcorn",
       "category": "food",
-      "minimumAgeGroup": 1,
-      "difficulty": 1,
+      "minimumAgeGroup": 2,
+      "difficulty": 2,
       "totalSteps": 20,
       "canvasSize": {
         "width": 800,
