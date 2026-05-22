@@ -1922,9 +1922,9 @@
       "isPremium": true
     },
     {
-      "id": "fantasy_spider_web_001",
+      "id": "nature_spider_web_001",
       "title": "Spider Web",
-      "category": "fantasy",
+      "category": "nature",
       "minimumAgeGroup": 1,
       "difficulty": 1,
       "totalSteps": 10,
