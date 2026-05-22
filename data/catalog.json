@@ -1829,6 +1829,240 @@
         "height": 800
       },
       "isPremium": true
+    },
+    {
+      "id": "food_pretzel_001",
+      "title": "Pretzel",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 26,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "faces_horse_face_001",
+      "title": "Horse Face",
+      "category": "faces",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 18,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "animals_ant_001",
+      "title": "Ant",
+      "category": "animals",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 23,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "nature_moon_001",
+      "title": "Moon",
+      "category": "nature",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 2,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "faces_rabbit_face_001",
+      "title": "Rabbit Face",
+      "category": "faces",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 17,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "vehicles_bicycle_001",
+      "title": "Bicycle",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 23,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "vehicles_bus_001",
+      "title": "Bus",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 20,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "fantasy_spider_web_001",
+      "title": "Spider Web",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 10,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "vehicles_fire_truck_001",
+      "title": "Fire Truck",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 38,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_pizza_001",
+      "title": "Pizza",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 12,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "nature_star_001",
+      "title": "Star",
+      "category": "nature",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 10,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "vehicles_cement_truck_001",
+      "title": "Cement Truck",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 20,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "food_fork_001",
+      "title": "Fork",
+      "category": "food",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 12,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "vehicles_excavator_001",
+      "title": "Excavator",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 18,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "vehicles_train_001",
+      "title": "Train",
+      "category": "vehicles",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 32,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "faces_frog_face_001",
+      "title": "Frog Face",
+      "category": "faces",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 9,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "nature_snowflake_001",
+      "title": "Snowflake",
+      "category": "nature",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 15,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
+    },
+    {
+      "id": "fantasy_kettle_001",
+      "title": "Kettle",
+      "category": "fantasy",
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
+      "totalSteps": 10,
+      "canvasSize": {
+        "width": 800,
+        "height": 800
+      },
+      "isPremium": true
     }
   ]
 }
