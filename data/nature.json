@@ -2275,6 +2275,192 @@
         "strokeWidth": 4.0,
         "fillColor": "none"
       }
+    ],
+        "nature_ant_001": [
+      {
+        "stepNumber": 1,
+        "label": "Draw the outline",
+        "svgPath": "M299.333 277.789C222.09 257.4 110.081 374.421 185.55 436.301C236.513 478.087 375.886 448.744 382.115 372.239C385.383 332.098 357.785 300.889 323.08 286.094C316.85 283.438 306.087 279.572 299.333 277.789Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 2,
+        "label": "Add the main shape",
+        "svgPath": "M317.668 443.872C312.057 512.794 375.558 535.169 419.524 484.02C435.423 465.524 444.974 426.35 429.694 406.057C422.203 396.109 409.919 389.488 398.207 385.867C394.858 384.831 381.742 383.082 382.065 383.278",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 3,
+        "label": "Draw the inner details",
+        "svgPath": "M438.407 435.868C438.342 435.869 447.159 430.974 449.078 429.83C454.957 426.324 467.057 425.595 473.747 427.688C491.879 433.36 498.463 451.082 493.378 468.768C487.14 490.463 467.923 512.481 444.217 512.921C434.404 513.103 426.909 507.703 421.069 500.209C418.812 497.313 415.834 486.49 417.06 489.951",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 4,
+        "label": "Add more details",
+        "svgPath": "M492.507 443.316C491.781 443.249 502.704 429.612 503.983 428.247C510.968 420.79 528.091 410.469 538.301 408.703C574.91 402.372 604.803 415.991 628.818 443.156C632.597 447.43 642.959 455.02 644.311 460.797C646.19 468.82 634.883 483.599 630.903 490.011C612.834 519.129 580.377 548.601 543.356 539.79C526.134 535.691 510.604 527.378 496.992 515.976C492.706 512.386 487.569 507.854 484.661 503.13C483.814 501.754 479.807 496.522 480.518 497.254",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 5,
+        "label": "Draw the accent lines",
+        "svgPath": "M223.895 158.336C241.284 162.698 281.575 197.044 278.436 216.611C276.097 231.193 262.955 261.896 266.912 276.01",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 6,
+        "label": "Add the finishing touches",
+        "svgPath": "M327.661 176.332C348.141 184.279 366.127 223.386 354.45 242.199C348.027 252.548 340.774 262.589 334.786 273.243C333.095 276.253 326.861 286.486 327.545 285.864",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 7,
+        "label": "Draw the extra details",
+        "svgPath": "M214.573 136.554C236.343 152.92 211.525 180.841 197.428 169.161C183.467 157.594 199.472 125.202 214.573 136.554Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 8,
+        "label": "Complete the pattern",
+        "svgPath": "M330.523 158.887C345.24 172.219 315.232 184.258 302.957 174.56C283.774 159.405 309.203 139.574 330.523 158.887Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 9,
+        "label": "Add the final strokes",
+        "svgPath": "M253.225 349.675C227.252 347.439 229.877 385.588 254.207 380.605C269.632 377.446 271.561 351.253 253.225 349.675Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 10,
+        "label": "Finish the drawing",
+        "svgPath": "M249.029 349.988C240.78 362.486 256.58 368.219 264.004 356.97",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 11,
+        "label": "Draw the top section",
+        "svgPath": "M200.774 445.549C213.977 449.458 227.221 429.311 234.115 421.933",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 12,
+        "label": "Draw the bottom section",
+        "svgPath": "M327.554 493.831C316.953 493.295 309.011 524.325 305.973 531.439C304.41 535.099 302.675 546.807 302.705 546.754",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 13,
+        "label": "Add the left details",
+        "svgPath": "M305.644 549.592C297.375 542.391 263.658 553.607 280.199 566.342C291.812 575.283 319.505 561.662 305.644 549.592Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 14,
+        "label": "Add the right details",
+        "svgPath": "M390.488 507.512C385.701 515.985 375.398 521.574 369.557 529.672C355.791 548.757 358.471 569.843 357.329 592.417",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 15,
+        "label": "Draw the center",
+        "svgPath": "M364.488 596.124C346.767 589.012 316.838 608.008 341.943 619.056C365.148 629.268 382.802 603.475 364.488 596.124Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 16,
+        "label": "Add small details",
+        "svgPath": "M416.477 494.266C403.568 502.964 400.639 521.396 401.672 535.365C401.874 538.106 402.036 552.666 402.917 552.22",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 17,
+        "label": "Draw the curves",
+        "svgPath": "M410.166 559.343C404.096 547.163 378.143 555.914 381.963 569.657C386.263 585.123 419.403 577.878 410.166 559.343Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 18,
+        "label": "Add the highlights",
+        "svgPath": "M442.263 513.544C440.046 512.291 434.782 533.87 434.307 535.967C430.344 553.459 431.942 583.572 442.394 599.084",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 19,
+        "label": "Complete the outline",
+        "svgPath": "M453.401 605.807C438.373 589.226 411.774 607.6 428.804 621.354C440.246 630.594 465.793 619.48 453.401 605.807Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 20,
+        "label": "Final details",
+        "svgPath": "M492.552 512.678C483.92 527.958 482.126 542.419 481.263 559.465",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 21,
+        "label": "Draw step 21",
+        "svgPath": "M486.315 563.329C479.053 553.929 452.271 560.448 462.836 573.619C471.972 585.007 497.142 577.342 486.315 563.329Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 22,
+        "label": "Draw step 22",
+        "svgPath": "M544.798 540.511C535.834 546.551 535.796 583.657 541.162 591.621",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 23,
+        "label": "Draw step 23",
+        "svgPath": "M549.092 596.942C542.49 587.893 514.027 594.961 523.002 608.28C533.368 623.665 562.115 614.791 549.092 596.942Z",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      }
     ]
   }
 }
