@@ -2534,56 +2534,6 @@
         "fillColor": "none"
       }
     ],
-    "food_cup_001": [
-      {
-        "stepNumber": 1,
-        "label": "Draw the outline",
-        "svgPath": "M239.472 584.47C313.717 604.807 400.263 621.638 471.811 580.858",
-        "strokeColor": "#000000",
-        "strokeWidth": 4.0,
-        "fillColor": "none"
-      },
-      {
-        "stepNumber": 2,
-        "label": "Add the main shape",
-        "svgPath": "M173.452 228.036C186.834 246.811 223.597 249.644 245.772 254.263C312.691 268.204 379.837 257.99 446.751 254.233C462.202 253.365 553.771 240.878 535.328 214.02C524.292 197.949 489.652 193.261 472.591 188.699C408.099 171.455 321.498 167.556 255.634 182.37C241.178 185.622 153.331 199.808 173.452 228.036Z",
-        "strokeColor": "#000000",
-        "strokeWidth": 4.0,
-        "fillColor": "none"
-      },
-      {
-        "stepNumber": 3,
-        "label": "Draw the inner details",
-        "svgPath": "M169.323 219.593C174.804 314.154 186.017 407.049 207.701 499.621C211.536 515.996 224.775 575.041 238.601 584.211",
-        "strokeColor": "#000000",
-        "strokeWidth": 4.0,
-        "fillColor": "none"
-      },
-      {
-        "stepNumber": 4,
-        "label": "Add more details",
-        "svgPath": "M537.383 218.378C545.189 247.403 537.606 281.452 536.548 311.013C533.958 383.374 517.288 450.874 500.021 520.118C495.674 537.549 485.752 568.655 471.365 581.436",
-        "strokeColor": "#000000",
-        "strokeWidth": 4.0,
-        "fillColor": "none"
-      },
-      {
-        "stepNumber": 5,
-        "label": "Draw the accent lines",
-        "svgPath": "M538.832 287.024C602.956 297.483 621.716 366.067 585.722 415.923C569.497 438.396 540.872 457.651 514.625 465.827",
-        "strokeColor": "#000000",
-        "strokeWidth": 4.0,
-        "fillColor": "none"
-      },
-      {
-        "stepNumber": 6,
-        "label": "Add the finishing touches",
-        "svgPath": "M541.543 251.534C543.976 249.737 562.908 257.367 566.276 258.736C589.246 268.071 624.129 287.01 631.764 313.24C656.594 398.551 588.911 491.604 503.146 506.554",
-        "strokeColor": "#000000",
-        "strokeWidth": 4.0,
-        "fillColor": "none"
-      }
-    ],
     "food_pretzel_001": [
       {
         "stepNumber": 1,
