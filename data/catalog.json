@@ -1584,19 +1584,6 @@
       "isPremium": true
     },
     {
-      "id": "nature_ant_001",
-      "title": "Ant",
-      "category": "nature",
-      "minimumAgeGroup": 1,
-      "difficulty": 1,
-      "totalSteps": 25,
-      "canvasSize": {
-        "width": 800,
-        "height": 800
-      },
-      "isPremium": true
-    },
-    {
       "id": "fantasy_balloons_001",
       "title": "Balloons",
       "category": "fantasy",
