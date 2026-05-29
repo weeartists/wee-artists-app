@@ -443,8 +443,8 @@
       "id": "faces_pup_face_001",
       "title": "Pup Face",
       "category": "faces",
-      "minimumAgeGroup": 2,
-      "difficulty": 2,
+      "minimumAgeGroup": 1,
+      "difficulty": 1,
       "totalSteps": 16,
       "canvasSize": {
         "width": 800,
