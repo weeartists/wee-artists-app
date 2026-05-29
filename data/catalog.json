@@ -349,19 +349,6 @@
       "isPremium": false
     },
     {
-      "id": "faces_puppy_face_001",
-      "title": "Puppy Face",
-      "category": "faces",
-      "minimumAgeGroup": 1,
-      "difficulty": 1,
-      "totalSteps": 15,
-      "canvasSize": {
-        "width": 800,
-        "height": 800
-      },
-      "isPremium": false
-    },
-    {
       "id": "animals_rabbit_001",
       "title": "Rabbit",
       "category": "animals",
