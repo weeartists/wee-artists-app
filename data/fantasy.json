@@ -3073,6 +3073,104 @@
           "strokeWidth": 4.0,
           "fillColor": "none"
         }
-      ]
+      ],
+    "food_fork_001": [
+      {
+        "stepNumber": 1,
+        "label": "Draw the outline",
+        "svgPath": "M977.586 940.72C972.37 938.112 975.202 939.368 969.042 937.058",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 2,
+        "label": "Add the main shape",
+        "svgPath": "M125.613 622.145C226.667 521.092 343.33 434.333 443.577 334.086",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 3,
+        "label": "Draw the inner details",
+        "svgPath": "M182.371 674.631C212.712 644.29 238.217 609.376 265.981 576.983C329.415 502.978 399.164 432.206 467.379 363.99",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 4,
+        "label": "Add more details",
+        "svgPath": "M125.324 622.725C117.119 625.171 122.656 646.293 124.162 651.345C130.664 673.152 161.742 693.471 181.541 674.9",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 5,
+        "label": "Draw the accent lines",
+        "svgPath": "M443.989 332.916C453.835 308.418 450.547 278.296 464.816 254.882C490.008 213.546 548.778 163.522 587.93 134.716C596.823 128.173 605.27 117.172 615.427 112.839",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 6,
+        "label": "Add the finishing touches",
+        "svgPath": "M466.993 364.818C491.674 342.953 530.613 353.499 560.41 333.61C611.46 299.535 646.069 237.974 684.967 192.159",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 7,
+        "label": "Draw the extra details",
+        "svgPath": "M614.733 113.598C595.271 143.207 564.587 165.502 545.734 195.766C539.685 205.477 531.728 214.195 526.101 224.139C523.991 227.869 520.764 231.137 518.481 234.61C518 235.342 516.168 239.244 517.196 238.434",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 8,
+        "label": "Complete the pattern",
+        "svgPath": "M516.745 239.12C514.767 246.564 548.02 214.96 548.193 214.827C569.415 198.607 588.196 179.146 608.383 161.76C614.228 156.726 619.908 151.867 625.769 146.898C627.89 145.099 633.837 139.484 633.752 139.614",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 9,
+        "label": "Add the final strokes",
+        "svgPath": "M634.036 139.555C637.632 138.811 626.958 150.054 626.308 150.937C621 158.155 614.425 163.643 608.323 170.075C589.968 189.421 571.854 210.148 555.417 231.124C551.313 236.363 546.885 242.125 543.453 247.831C541.654 250.822 535.131 258.855 537.873 256.694",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 10,
+        "label": "Finish the drawing",
+        "svgPath": "M536.627 257.841C539.299 270.761 559.226 252.847 562.602 250.098C585.788 231.217 605.734 207.184 628.941 188.05C635.995 182.234 642.737 176.018 649.897 170.374C651.924 168.776 659.013 162.399 658.448 162.972",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 11,
+        "label": "Draw the top section",
+        "svgPath": "M657.771 164.002C635.848 197.354 608.197 228.319 583.338 260.043C576.213 269.137 568.015 278.266 565.078 289.319",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      },
+      {
+        "stepNumber": 12,
+        "label": "Draw the bottom section",
+        "svgPath": "M565.372 290.74C571.113 300.638 594.177 272.602 598.261 269.114C628.169 243.577 654.89 214.555 685.732 190.244",
+        "strokeColor": "#000000",
+        "strokeWidth": 4.0,
+        "fillColor": "none"
+      }
+    ]
   }
 }
