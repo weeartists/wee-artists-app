@@ -141,19 +141,6 @@
       "isPremium": true
     },
     {
-      "id": "puppy_001",
-      "title": "Puppy",
-      "category": "animals",
-      "minimumAgeGroup": 3,
-      "difficulty": 3,
-      "totalSteps": 22,
-      "canvasSize": {
-        "width": 800,
-        "height": 800
-      },
-      "isPremium": true
-    },
-    {
       "id": "dolphin_001",
       "title": "Dolphin",
       "category": "animals",
@@ -302,7 +289,7 @@
       "category": "faces",
       "minimumAgeGroup": 1,
       "difficulty": 1,
-      "totalSteps": 18,
+      "totalSteps": 17,
       "canvasSize": {
         "width": 800,
         "height": 800
@@ -354,7 +341,7 @@
       "category": "vehicles",
       "minimumAgeGroup": 1,
       "difficulty": 1,
-      "totalSteps": 14,
+      "totalSteps": 12,
       "canvasSize": {
         "width": 800,
         "height": 800
@@ -471,7 +458,7 @@
       "category": "faces",
       "minimumAgeGroup": 2,
       "difficulty": 2,
-      "totalSteps": 19,
+      "totalSteps": 16,
       "canvasSize": {
         "width": 800,
         "height": 800
