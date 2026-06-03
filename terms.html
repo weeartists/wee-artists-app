@@ -169,6 +169,7 @@
   .card.c-purple { --accent: var(--purple); }
   .card.c-blue  { --accent: #60A5FA; }
   .card.c-red   { --accent: #F87171; }
+  .card.c-orange { --accent: #FB923C; }
 
   /* Highlight box */
   .highlight {
@@ -185,6 +186,37 @@
     align-items: flex-start;
   }
   .highlight .hi-icon { font-size: 1.2em; flex-shrink: 0; margin-top: 1px; }
+
+  /* Apple EULA block */
+  .eula-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background: #F0F4FF;
+    border: 1.5px solid #C7D2FE;
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-top: 14px;
+  }
+  .eula-block .eula-icon {
+    width: 42px; height: 42px;
+    background: #1D1D1F;
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+  .eula-block .eula-content { font-size: 0.9em; line-height: 1.6; color: #1E1B4B; }
+  .eula-block .eula-content strong { display: block; font-weight: 800; margin-bottom: 4px; }
+  .eula-block .eula-link {
+    display: inline-block;
+    margin-top: 8px;
+    color: #7C3AED;
+    font-weight: 700;
+    font-size: 0.88em;
+    word-break: break-all;
+    text-decoration: underline;
+  }
 
   /* Ownership cards */
   .owner-grid {
@@ -262,7 +294,7 @@
     <div class="logo-icon">🎨</div>
     <div class="logo-text">Wee Artists</div>
   </div>
-  <p class="header-sub">Last updated: April 2026</p>
+  <p class="header-sub">Last updated: June 2026</p>
   <div class="page-label">Terms of Use</div>
 </div>
 
@@ -325,6 +357,22 @@
     <h2><span class="emoji">🔄</span> Updates &amp; Availability</h2>
     <p>We may update, modify, or discontinue the App at any time without prior notice. We may also update these Terms of Use — the "Last updated" date at the top of this page will reflect any changes.</p>
     <p>Continued use of the App after any changes constitutes your acceptance of the revised terms.</p>
+  </div>
+
+  <div class="card c-orange">
+    <h2><span class="emoji">🍎</span> Apple App Store — End User License Agreement (EULA)</h2>
+    <p>Wee Artists is distributed through the Apple App Store. As an end user, your use of this App is also subject to Apple's Standard End User License Agreement (EULA).</p>
+    <p>In the event of any conflict between these Terms of Use and Apple's EULA, Apple's EULA shall take precedence with respect to App Store usage terms.</p>
+    <div class="eula-block">
+      <div class="eula-icon">🍎</div>
+      <div class="eula-content">
+        <strong>Apple's Standard EULA</strong>
+        You can read the full Apple End User License Agreement at the link below:
+        <a class="eula-link" href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">
+          https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+        </a>
+      </div>
+    </div>
   </div>
 
   <div class="card c-red">
